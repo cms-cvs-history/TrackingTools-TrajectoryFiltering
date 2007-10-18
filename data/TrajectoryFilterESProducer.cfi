@@ -1,0 +1,8 @@
+es_module trajectoryFilterESProducer = TrajectoryFilterESProducer {
+#	string ComponentName = "baseCkfTrajectoryFilter"
+	string ComponentName = "ckfBaseTrajectoryFilter"
+	PSet filterPset = {
+#		using BaseCkfTrajectoryFilter_block
+		using CkfBaseTrajectoryFilter_block
+	}
+}
