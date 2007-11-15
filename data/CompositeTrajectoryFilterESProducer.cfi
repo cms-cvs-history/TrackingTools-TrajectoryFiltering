@@ -1,0 +1,4 @@
+es_module compositeTrajectoryFilterESProducer = CompositeTrajectoryFilterESProducer {
+	string ComponentName = "compositeTrajectoryFilter"
+	vstring filterNames = {	}
+}

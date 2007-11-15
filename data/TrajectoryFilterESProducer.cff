@@ -1,2 +1,3 @@
 include "TrackingTools/TrajectoryFiltering/data/TrajectoryFilter.cff"
+include "TrackingTools/TrajectoryFiltering/data/CompositeTrajectoryFilterESProducer.cfi"
 include "TrackingTools/TrajectoryFiltering/data/TrajectoryFilterESProducer.cfi"
