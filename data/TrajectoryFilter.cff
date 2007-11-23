@@ -1,16 +1,3 @@
-block BaseCkfTrajectoryFilter_block =
-{
-	string ComponentType = "BaseCkfTrajectoryFilter"
-	double chargeSignificance = -1
-	int32 maxLostHits = 1
-	int32 maxConsecLostHits = 1
-	int32 maxNumberOfHits = -1
-	int32 minimumNumberOfHits = 5
-	double minPt = 0.9
-	double nSigmaMinPt = 5.0
-	int32 minHitsMinPt = -1
-}
-
 block CkfBaseTrajectoryFilter_block =
 {
 	string ComponentType = "CkfBaseTrajectoryFilter"
