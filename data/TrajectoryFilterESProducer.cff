@@ -1,3 +1,4 @@
 include "TrackingTools/TrajectoryFiltering/data/TrajectoryFilter.cff"
 include "TrackingTools/TrajectoryFiltering/data/CompositeTrajectoryFilterESProducer.cfi"
-include "TrackingTools/TrajectoryFiltering/data/TrajectoryFilterESProducer.cfi"
+module ckfBaseTrajectoryFilter = trajectoryFilterESProducer from  "TrackingTools/TrajectoryFiltering/data/TrajectoryFilterESProducer.cfi"
+replace ckfBaseTrajectoryFilter.ComponentName = "ckfBaseTrajectoryFilter"  # actually not needed
