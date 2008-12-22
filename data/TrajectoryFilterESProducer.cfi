@@ -1,8 +1,0 @@
-include "TrackingTools/TrajectoryFiltering/data/TrajectoryFilter.cff"
-
-es_module trajectoryFilterESProducer = TrajectoryFilterESProducer {
-	string ComponentName = "ckfBaseTrajectoryFilter"
-	PSet filterPset = {
-		using CkfBaseTrajectoryFilter_block
-	}
-}
